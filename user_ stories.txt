@@ -1,0 +1,21 @@
+
+
+For example, given S = "abbaa", the obtained sequence of strings is:
+
+abbaa -> bbaaa -> baaab -> aaabb -> aabba
+
+Three of them have the same first and last letter.
+
+Write a function:
+
+function solution(S);
+
+that, given a string S of length N, consisting of letters 'a' and/or 'b', returns the number of times the first letter is the same as the last in the obtained sequence of strings.
+
+Examples:
+
+    Given S = "abbaa", the function should return 3, as described above.
+
+    Given S = "aaaa", the function should return 4. The first and last letters are always the same.
+
+    Given S = "abab", the function should return 0. The first and last letters are always different. 
